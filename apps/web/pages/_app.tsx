@@ -19,12 +19,12 @@ const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
   return (
     <ChakraProvider>
       <DefaultSeo
-        title="Saturday HackNight"
+        title="FairwindHacks"
         description="
             It’s a bi weekly hackathon that gives tech-savvy learners an oppurtunity to explore all the latest technology related concepts including APIs, frameworks and build some cool projects."
         openGraph={{
           type: "website",
-          siteName: "Saturday HackNight",
+          siteName: "FairwindHacks",
           locale: "en_IE",
           url: "https://hacknight.tinkerhub.org/",
           images: [
@@ -32,7 +32,7 @@ const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
               url: "/images/seo-01.png",
               width: 800,
               height: 600,
-              alt: "Saturday HackNight",
+              alt: "FairwindHacks",
             },
           ],
         }}
